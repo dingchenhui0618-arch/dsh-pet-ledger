@@ -1,0 +1,18 @@
+node_modules/
+*.log
+
+# 本机临时文件与运行数据
+tmp/
+.dsh/
+pet-ledger.json
+*.tmp
+.DS_Store
+
+# 本机凭据一律不入库
+.env
+.env.*
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
